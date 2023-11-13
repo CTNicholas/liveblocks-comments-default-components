@@ -1,0 +1,45 @@
+.example .lb-root {
+  --lb-transition-duration: 0;
+}
+
+.example .lb-root[data-resolved] {
+  display: none;
+}
+
+.example[data-style="one"] .lb-root {
+  --wrapper-radius: 0.75em;
+}
+
+.example[data-style="two"] .lb-root {
+  font-family: "Geist", "Be Vietnam Pro", sans-serif;
+  font-size: 14px;
+  --wrapper-radius: 0.5em;
+  --lb-radius: 0.25em;
+  --lb-accent: orange;
+  --lb-icon-size: 16px;
+  --lb-spacing: 1.2em;
+  --lb-avatar-radius: 4px;
+}
+
+.example[data-style="three"] .lb-root {
+  font-family: "Source Serif Pro", sans-serif;
+  font-size: 16px;
+  --lb-radius: 0;
+  --lb-accent: black;
+  --wrapper-radius: 0em;
+  --lb-avatar-radius: 0px;
+  --lb-icon-weight: 1px;
+  --lb-spacing: 1.1em;
+}
+
+.example[data-style="three"] .lb-root[data-resolved] {
+  opacity: 0.6;
+  display: block;
+}
+
+.example[data-style="four"] .lb-root {
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 0.6px;
+  --wrapper-radius: 0.75em;
+  --lb-accent: lime;
+}

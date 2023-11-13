@@ -2,7 +2,7 @@
 https://github.com/CTNicholas/liveblocks-comments-default-components/assets/33033422/f2668562-c2c3-43d4-a1b1-4c7d3741513d
 
 
-## Customised Liveblocks Comments default components
+## Liveblocks Comments customised default components
 
 This demo shows you how to customise [Liveblocks Comments](https://liveblocks.io/comments) default components.
 
